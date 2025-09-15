@@ -1,0 +1,213 @@
+/* css style starts here */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* header style starts here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-left {
+  margin: 30px;
+}
+.nav-right {
+  margin-right: 20px;
+}
+.nav-left nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.nav-left nav ul li a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.nav-left nav ul li a:hover {
+  border-bottom: 3px solid #505050;
+}
+.li-highlight {
+  border-bottom: 3px solid #505050;
+}
+
+.nav-right h2 {
+  font-size: 1.8rem;
+}
+/* header style end here */
+
+/* banner style starts here */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6f0;
+  margin: 0px 30px;
+  padding: 10px 0px;
+  margin-bottom: 50px;
+}
+.banner-left-section,
+.banner-right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.banner-content-section {
+  text-align: center;
+  margin: 50px;
+}
+.banner-content-section p {
+  color: #505050;
+}
+.banner-content-section h1 {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.banner-left-section img,
+.banner-right-section img {
+  height: 450px;
+}
+
+/* banner style end here */
+
+/* Season Collections style starts here */
+
+.season-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.season-title h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 30px 0px;
+}
+.season-card img {
+  height: 400px;
+  width: 300px;
+}
+.season-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.season-card h1 {
+  text-align: center;
+  margin: 20px 5px;
+}
+.season-card button {
+  padding: 13px 25px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f7f6f0;
+}
+.season-card button:hover {
+  background-color: rgba(128, 128, 128, 0.457);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.season-card {
+  margin: 20px;
+}
+/* Season Collections style end here */
+
+/* Our Best Seller section style starts here */
+
+.seller-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-seller-title h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 30px 0px;
+}
+.seller-card img {
+  height: 400px;
+  width: 300px;
+}
+.seller-card {
+  text-align: center;
+  margin: 20px;
+}
+.seller-card h3 {
+  margin: 10px 0px;
+}
+.seller-card p {
+  color: rgb(128, 128, 128);
+}
+/* Our Best Seller section style end here */
+
+/* footer section starts here */
+.footer p {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #f7f6f0;
+}
+/* footer section end here */
+
+/* responsive style start here */
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .nav-left nav ul {
+    gap: 20px;
+  }
+  .nav-left {
+    margin: 20px;
+  }
+  .banner-container {
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  .banner-content-section h1 {
+    font-size: 2rem;
+  }
+  .banner-left-section img,
+  .banner-right-section img {
+    height: 250px;
+  }
+  .season-card-container {
+    flex-direction: column;
+  }
+
+  .season-card img {
+    border-radius: 20px;
+  }
+  .seller-card-container {
+    flex-direction: column;
+  }
+  .seller-card img {
+    border-radius: 20px;
+  }
+  .season-title h1 .best-seller-title h1 {
+    font-size: 2rem;
+    margin: 15px 0px;
+  }
+}
+/* responsive style end here */
+
+/* css style end here */
