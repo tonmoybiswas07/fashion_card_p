@@ -2,12 +2,13 @@
 * {
   padding: 0%;
   margin: 0%;
+  font-family:'Times New Roman', Times, serif;
 }
 
 /* header style starts here */
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -21,24 +22,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
   list-style: none;
 }
 .nav-left nav ul li a {
   text-decoration: none;
   color: #505050;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .nav-left nav ul li a:hover {
-  border-bottom: 3px solid #505050;
+  border-bottom: 1px solid #505050;
 }
 .li-highlight {
-  border-bottom: 3px solid #505050;
+  border-bottom: 1px solid #505050;
 }
 
 .nav-right h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 /* header style end here */
 
@@ -76,7 +77,7 @@
 
 .banner-left-section img,
 .banner-right-section img {
-  height: 450px;
+  height: 550px;
 }
 
 /* banner style end here */
@@ -93,10 +94,12 @@
   text-align: center;
   font-weight: 600;
   margin: 30px 0px;
+  
 }
 .season-card img {
   height: 400px;
   width: 300px;
+  border-radius: 20px;
 }
 .season-image {
   display: flex;
@@ -144,6 +147,7 @@
 .seller-card img {
   height: 400px;
   width: 300px;
+  border-radius: 20px;
 }
 .seller-card {
   text-align: center;
